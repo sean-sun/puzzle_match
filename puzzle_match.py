@@ -1,5 +1,4 @@
-# To find the closest matching region in master to sub, a straightforward way is to convolve master with sub,
-# the position which gets the strongest activation should be the center of the closest matching region
+# To find the closest matching region in puzzle_master, a straightforward way is to using puzzle_sub as a template and apply template matching, the region that gets the largest matching score should be the closest matching region.
 
 import sys
 import cv2
